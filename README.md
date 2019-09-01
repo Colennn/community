@@ -18,4 +18,9 @@ Ctrl+Shift+N：查找文件
 
 *Ctrl+Alt+L：格式化代码
 
-Alt+1 显示/隐藏侧边栏
+Alt+1：显示/隐藏侧边栏
+
+*Ctrl+Alt+V：快速生成对象变量 -->
+光标选中“new AccessTokenDTO()” --> 使用快捷键--> 生成AccessTokenDTO accessTokenDTO = new AccessTokenDTO();
+
+Alt+insert：生成Getter&Setter
