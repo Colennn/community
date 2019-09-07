@@ -24,3 +24,10 @@ Alt+1：显示/隐藏侧边栏
 光标选中“new AccessTokenDTO()” --> 使用快捷键--> 生成AccessTokenDTO accessTokenDTO = new AccessTokenDTO();
 
 Alt+insert：生成Getter&Setter
+
+## Thymeleaf
+
+```html
+<div th:text="${session.user}"></div>
+<li th:if="${session.user == null}"></li>
+```
