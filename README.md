@@ -25,6 +25,10 @@ Alt+1：显示/隐藏侧边栏
 
 Alt+insert：生成Getter&Setter
 
+Ctrl+P：查看方法的参数
+
+Alt+Enter：自动导包/自动生成方法
+
 ## Thymeleaf
 
 ```html
