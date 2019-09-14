@@ -6,7 +6,7 @@
 
 https://elasticsearch.cn/
 
-## IDEA常用快捷键
+## IDEA常用快捷键（录屏GIF写成文档）
 
 Ctrl+Y：删除当前行
 
@@ -27,6 +27,8 @@ Alt+insert：生成Getter&Setter
 Ctrl+P：查看方法的参数
 
 Alt+Enter：自动导包/自动生成方法
+
+Ctrl+W：扩大选择范围
 
 ## Thymeleaf
 
@@ -95,14 +97,51 @@ mybatis.configuration.map-underscore-to-camel-case=true
    3. IndexController中需要加入分页功能传入页码和单页数量，13:30
    4. questionService(page,size)和questionMapper传入页码和单页数量14:50
    5. 定义一个PaginationDTO（包含问题列表，当前页、页码数组、是否展示上一页、下一页） 18:00
-   6. ​
+   6. 修改index
+   7. 修改service
+   8. 定义PaginationDTO的逻辑 29:00
+   9. index页码编写53:00
+   10. 转义字符 71:00
+   11. 配置开启mybatis的sql日志
 
 6. 完善导航栏并完成页面拆分
 
+   1. 引入JQ
+   2. span
+   3. include
+
 7. 个人资料、发布问题列表实现
 
+   1. profile.html页面更新
+   2. controller 
+   3. Mapper
+   4. flyway中新建profile表
+   5. 页面列表传值
+   6. thymeleaf路径问题60:00
+
+8. 拦截器
+
+   1. 判断用户是否登录，再根据逻辑跳转
+   2. 对所有地址进行拦截
+
+9. 通过源码分析不能加载资源问题
+
+   1.   @EnableWebMvc
+   2.   阅读源码，子类快捷键
+   3.   ​
+
+10. 完成问题详情页面
+
+11. ​
 
 
+
+
+## 文档编写
+
+- [ ] IDEA Debug方法
+- [ ] ThymeLeaf入门
+- [ ] IDEA常用快捷键
 
 
 
