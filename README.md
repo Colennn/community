@@ -22,13 +22,19 @@ Alt+1：显示/隐藏侧边栏
 
 *Ctrl+Alt+V：快速生成对象变量 --> 光标选中`new AccessTokenDTO()`--> 使用快捷键--> 生成AccessTokenDTO accessTokenDTO = new AccessTokenDTO();
 
-Alt+insert：生成Getter&Setter
+Alt+insert：生成Getter&Setter、重写接口的方法
 
 Ctrl+P：查看方法的参数
 
 Alt+Enter：自动导包/自动生成方法
 
 Ctrl+W：扩大选择范围
+
+Shift+F6：快速上下文改类名、方法名
+
+Ctrl+Alt+O：删除无用依赖
+
+
 
 ## Thymeleaf
 
@@ -132,7 +138,21 @@ mybatis.configuration.map-underscore-to-camel-case=true
 
 10. 完成问题详情页面
 
-11. ​
+    1. 添加QuestionController
+    2. 根据id查询问题详情questionMapper.getById()
+    3. 新建question.html
+
+11. 修复登录问题
+
+12. 完成更新问题功能
+
+    1. 修改publish.html
+    2. 修改QuestionService
+    3. 修改PublishController
+
+13. Mybatis逆向工程
+
+14. ​
 
 
 
