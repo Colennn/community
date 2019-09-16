@@ -34,6 +34,14 @@ Shift+F6：快速上下文改类名、方法名
 
 Ctrl+Alt+O：删除无用依赖
 
+Ctrl + B：父类或父方法定义 
+
+Ctrl + Alt + B：子类或子方法实现
+
+Ctrl+Shift+↑/↓：将光标行代码与上/下行替换
+
+Ctrl+D：复制一行
+
 
 
 ## Thymeleaf
@@ -134,7 +142,6 @@ mybatis.configuration.map-underscore-to-camel-case=true
 
    1.   @EnableWebMvc
    2.   阅读源码，子类快捷键
-   3.   ​
 
 10. 完成问题详情页面
 
@@ -144,6 +151,10 @@ mybatis.configuration.map-underscore-to-camel-case=true
 
 11. 修复登录问题
 
+    1. 新建UserService
+    2. UserMapper-》findByAccountId
+    3. AuthorizeController  logout功能  清除cookie
+
 12. 完成更新问题功能
 
     1. 修改publish.html
@@ -152,7 +163,28 @@ mybatis.configuration.map-underscore-to-camel-case=true
 
 13. Mybatis逆向工程
 
-14. ​
+    1. pom中添加MBG插件（需要H2数据库依赖）
+    2. MBG配置文件
+
+14. 使用 ControllerAdvice 和 ExceptionHandler 通用处理异常
+
+15. 实现阅读数功能
+
+16. 实现回复功能-初识API
+
+17. 实现回复功能-异常处理
+
+18. 实现问题回复-事务
+
+19. 实现问题回复-页面提交回复
+
+20. 实现问题回复-不刷新登录
+
+21. 实现回复列表功能
+
+22. 优化回复功能和问题详情页面
+
+23. ​
 
 
 
