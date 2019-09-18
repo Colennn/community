@@ -10,7 +10,7 @@ https://elasticsearch.cn/
 
 Ctrl+Y：删除当前行
 
-Ctrl+D:复制当前行
+Ctrl+D：复制当前行
 
 Ctrl+N：查找类文件
 
@@ -18,7 +18,7 @@ Ctrl+Shift+N：查找文件
 
 *Ctrl+Alt+L：格式化代码
 
-Alt+1：显示/隐藏侧边栏
+Alt+1：第一下：选中project中的文件；第二下：隐藏project侧边栏；第三下：显示project
 
 *Ctrl+Alt+V：快速生成对象变量 --> 光标选中`new AccessTokenDTO()`--> 使用快捷键--> 生成AccessTokenDTO accessTokenDTO = new AccessTokenDTO();
 
@@ -26,7 +26,7 @@ Alt+insert：生成Getter&Setter、重写接口的方法
 
 Ctrl+P：查看方法的参数
 
-Alt+Enter：自动导包/自动生成方法
+*Alt+Enter：自动导包/自动生成方法
 
 Ctrl+W：扩大选择范围
 
@@ -39,8 +39,6 @@ Ctrl + B：父类或父方法定义
 Ctrl + Alt + B：子类或子方法实现
 
 Ctrl+Shift+↑/↓：将光标行代码与上/下行替换
-
-Ctrl+D：复制一行
 
 
 
@@ -165,8 +163,15 @@ mybatis.configuration.map-underscore-to-camel-case=true
 
     1. pom中添加MBG插件（需要H2数据库依赖）
     2. MBG配置文件
+    3. 代码重构
 
-14. 使用 ControllerAdvice 和 ExceptionHandler 通用处理异常
+14. 使用 ControllerAdvice 和 ExceptionHandler 通用处理异常***
+
+    1. 继承errorController
+    2. 新建error.html
+    3. 新建ControllerAdvice
+    4. 新建Advice
+    5. 新建exception
 
 15. 实现阅读数功能
 
