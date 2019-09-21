@@ -6,8 +6,7 @@
 
 https://elasticsearch.cn/
 
-## IDEA常用快捷键（录屏GIF写成文档）
-
+## IDEA常用快捷键
 Ctrl+Y：删除当前行
 
 Ctrl+D：复制当前行
@@ -206,8 +205,6 @@ mybatis.configuration.map-underscore-to-camel-case=true
 
 ## 插件
 
-
-p23 小节中匠哥推荐的三个提高效率的插件分别是：
 
 1. Octotree：快速以tree的方式展示github上的项目文件
 2. Table of contents sidebar：快速展示文章大纲（匠哥纯手工打造）
